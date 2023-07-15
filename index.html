@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="icon" href="https://bootdey.com/img/Content/Manbrown2.png" />
+  </head>
+  <body>
+    <form>
+            <fieldset>
+                <legend >Application Form :</legend>  
+                <label for="name">Name : </label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required /><br><br>
+                <label for="emailid">Email Id : </label><br>
+                <input type="email" id="emailid" name="emailid" placeholder="Enter your email"/><br><br>
+                <label for="gender">Gender : </label>
+                  <input type="radio" id="men">
+                  <label for="men">Men</label>
+                  <input type="radio" id="women">
+                  <label for="women">Women</label><br><br>
+                <label for="skills">CHOOSE SKILLS :</label><br>
+                  <label for="html">HTML</label>
+                  <input type="checkbox" id="html">
+                  <label for="css">CSS</label>
+                  <input type="checkbox" id="css">
+                  <label for="js">JS</label>
+                  <input type="checkbox" id="js">
+                  <label for="bootstrap">Bootstrap</label>
+                  <input type="checkbox" id="bootstrap">
+                  <label for="react">React</label>
+                  <input type="checkbox" id="react"><br><br>
+                <label for="job">JOB TYPE : </label>
+                  <select name="job" id="job">
+                    <option value="frontend">FRONT END DEVELOPER</option>
+                    <option value="backend">BACK END DEVELOPER</option>
+                    <option value="fullstack">FULL STACK DEVELOPER</option>
+                    <option value="wordpress">WORDPRESS DEVELOPER</option>
+                  </select><br><br>
+                <label for="browser">Choose your browser from the list : </label>
+                  <input list="browsers" name="browser" id="browser">
+                  <datalist id="browsers">
+                    <option value="Chrome">
+                    <option value="Microsoft Edge">
+                    <option value="Opera">
+                    <option value="Safari">
+                  </datalist><br><br>
+                <textarea name="message" id="message" cols="30" rows="4" placeholder="Give a brief summary about you"></textarea><br><br>              
+                <button type="submit">Submit</button>
+                
+            </fieldset>
+    </form>
+
+    <fieldset>
+        <legend> Batch List : </legend>
+        <ul>
+        <li>SENCHOLA UNIVERSITY</li>
+      <ol><li>First Batch</li>
+      <ol type="A">
+        <li>Ravi</li>
+        <li>Manol</li>
+        <li>Sandhiya</li>
+      </ol>
+    <li>Sencond Batch</li>
+      <ol type="I">
+        <li>Sundhar</li>
+        <li>Saranya</li>
+        <li>Nandhini</li>
+      </ol>
+    
+    <li>Third Batch</li>
+      <ol type="i">
+        <li>Monika</li>
+        <li>Santhosh</li>
+        <li>Kannan</li>
+      </ol>
+    </ol>
+  </ul>
+</fieldset>
+
+<fieldset>
+  <legend>Course : </legend>
+  <table style="border:1px solid black">
+    <tr>
+      <th style="border:1px solid black">S.NO 1</th>
+      <th style="border:1px solid black">S.NO 2</th>
+      <th style="border:1px solid black">S.NO 3</th>
+      <th style="border:1px solid black">S.NO 4</th>
+    </tr>
+    <tr>
+      <td rowspan="2" style="border:1px solid black">REACT JS</td> 
+      <td style="border:1px solid black">HTML</td>
+      <td rowspan="2" style="border:1px solid black">REACT JS</td>
+      <td style="border:1px solid black">CSS</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid black">CSS</td>
+      <td style="border:1px solid black">HTML</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="border:1px solid black">JAVASCRIPT</td>
+      <td colspan="2" style="border:1px solid black">BOOTSTRAP</td>
+    </tr>
+  </table>
+</fieldset>
+  </body>
+</html>
